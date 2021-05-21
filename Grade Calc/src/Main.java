@@ -5,7 +5,9 @@ public class Main {
 
         Grade name = new Grade();
 
-        name.setCurrent(.40);
+        //number input here
+        //TODO add UI to this
+        name.setCurrent(1);
         name.setGoal(.75);
         name.setFinPercent(.30);
 
@@ -13,7 +15,7 @@ public class Main {
 
 
         double finalG =  (name1.calcGrade() * 100);
-        System.out.printf("hello " + "%.2f %n", finalG);
+        System.out.printf("%.2f %n", finalG);
         
     }
 
