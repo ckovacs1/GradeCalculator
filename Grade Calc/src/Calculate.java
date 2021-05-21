@@ -1,4 +1,5 @@
 /**
+ *@author Christian Kovacs
  *Uses the grade class to calculate the grade using the data from the grade
  */
 public class Calculate {
