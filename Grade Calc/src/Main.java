@@ -2,12 +2,12 @@ import javax.swing.*;
 
 /**
  * @author Christian Kovacs
- *WIP Not done yet
- * Main Class, main method runs UI and calculation
+ * WIP Not finished
+ * 
  */
 public class Main {
 
-
+    //https://www.youtube.com/watch?v=iE8tZ0hn2Ws
     public static void main(String[] args){
 
         //UI SetUp
@@ -51,6 +51,13 @@ public class Main {
         finalText.setBounds(130,160,165,25);
         panel.add(finalText);
 
+
+        //Creates and Adds the Enter Button
+        JButton button = new JButton("Enter");
+        button.setBounds(215,220,79,25);
+        panel.add(button);
+
+
         frame.setVisible(true);
 
 
@@ -70,7 +77,7 @@ public class Main {
 
 
         double finalG =  (name1.calcGrade() * 100);
-        System.out.printf("%.2f %n", finalG);
+        //System.out.printf("%.2f %n", finalG);
         
     }
 
