@@ -30,6 +30,7 @@ public class Main implements ActionListener {
         frame.setSize(400,400);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.add(panel);
+        frame.setTitle("Grade Calculator");
         panel.setLayout(null);
 
 
